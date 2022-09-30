@@ -1,3 +1,13 @@
+#.gitignore
+#file명
+#directory/
+
+.gitignore
+
+Spring S.A.iml
+.idea
+*.xml
+
 # Compiled class file
 *.class
 
