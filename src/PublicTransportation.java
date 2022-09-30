@@ -10,6 +10,8 @@ public class PublicTransportation {
     int maxGuest;
     int tCount;
 
+    int oilUpdate;
+
 
     //   기능
     String start;
@@ -23,14 +25,26 @@ public class PublicTransportation {
         return 0;
     }
 
-    public int getOil(){
-        System.out.println("주유량=" + oil);
-        return oil;
+    public int getOil(int o) {
+        if (o != 0) {
+            int oil = this.oil;
+            System.out.println("주유량=" + oil);
+            return oil;
+        } else {
+            System.out.println("주유량=" + oil);
+            return 0;
+        }
     }
 
     public int getCustomerCnt(int n) {
+        this.customerCnt = n;
         System.out.println("탑승 승객 수=" + n);
         return n;
+    }
+
+    public void getOilUpdate(int update) {
+        oil = this.oil + update;
+        System.out.println("주유량=" + oil);
     }
 }
 

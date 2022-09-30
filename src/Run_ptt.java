@@ -9,23 +9,44 @@ public class Run_ptt {
 
         System.out.println("1번택시");
         myTaxi1.getNum();
-        myTaxi1.getOil();
+        myTaxi1.getOil(0);
         myTaxi1.getStatus();
 
 
         System.out.println();
         System.out.println("2번택시");
         myTaxi2.getNum();
-        myTaxi2.getOil();
+        myTaxi2.getOil(0);
         myTaxi2.getStatus();
         myTaxi2.getCustomerCnt(2);
         System.out.println("기본요금=" + myTaxi2.standardCash);
         myTaxi2.getDestination("서울역");
-        myTaxi2.getToDestination(2);
+        myTaxi2.getTotalDistance(2);
         myTaxi2.getCash();
-        myTaxi1.getStatus();
+        myTaxi2.getStatus();
 
+        System.out.println();
+        myTaxi2.getOilUpdate(-80);
 
+        System.out.println();
+        myTaxi2.getTotalCash();
+        myTaxi2.getOilUpdate(20);
+
+        System.out.println();
+        myTaxi2.getCustomerCnt(5);
+        myTaxi2.isCheckGuest();
+
+        System.out.println();
+        myTaxi2.getCustomerCnt(3);
+        System.out.println("기본요금=" + myTaxi2.standardCash);
+        myTaxi2.getDestination("구로디지털단지역");
+        myTaxi2.getTotalDistance(12);
+        myTaxi2.getCash();
+
+        System.out.println();
+        myTaxi2.getOilUpdate(-40);
+        myTaxi2.getStatus();
+        myTaxi2.getTotalCash();
 
 
 
