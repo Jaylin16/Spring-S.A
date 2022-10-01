@@ -14,7 +14,7 @@ public class Taxi extends PublicTransportation {
 
     int maxGuest = 4;
     boolean checkGuest;
-    String status = "일반";
+    String status;
 
 
 //      기본 생성자 사용.

@@ -43,7 +43,7 @@ public class PublicTransportation {
     }
 
     public void getOilUpdate(int update) {
-        oil = this.oil + update;
+        this.oil += update;
         System.out.println("주유량=" + oil);
     }
 }

@@ -57,12 +57,28 @@ public class Run_ptt {
 
 
 
-
-
-
         System.out.println();
         System.out.println("2번버스");
         myBus2.getNum();
+        myBus2.getCustomerCnt(2);
+        myBus2.standardCash();
+
+        System.out.println();
+        myBus2.getOilUpdate(-50);
+        myBus2.getStatus();
+
+        System.out.println();
+        myBus2.getCustomerCnt(45);
+        myBus2.isCheckGuest();
+
+        System.out.println();
+        myBus2.getCustomerCnt(5);
+        myBus2.standardCash();
+
+        System.out.println();
+        myBus2.getOilUpdate(-55);
+        myBus2.getStatus();
+
 
 
 
